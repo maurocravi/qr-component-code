@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/*font-family: 'Lexend Deca', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+/*font-family: 'Big Shoulders Display', cursive; */
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  grid-template-rows: 30rem;
+  background-color: aqua;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 3rem;
+}
+.sedans h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-size: 43px;
+  font-weight: 700;
+}
+.sedans p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 500;
+}
+.sedans button {
+  width: 155px;
+  border-radius: 30px;
+  height: 50px;
+  border: none;
+  color: hsl(31, 77%, 52%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+.sedans button:hover {
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 1px solid white;
+}
+.sedans .button {
+  padding-top: 4.5rem;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 3rem;
+}
+.suvs h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-size: 43px;
+  font-weight: 700;
+}
+.suvs p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 500;
+}
+.suvs button {
+  width: 155px;
+  border-radius: 30px;
+  height: 50px;
+  border: none;
+  color: hsl(184, 100%, 22%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+.suvs button:hover {
+  cursor: pointer;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 1px solid white;
+}
+.suvs .button {
+  padding-top: 4.5rem;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 3rem;
+}
+.luxury h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+  font-size: 43px;
+  font-weight: 700;
+}
+.luxury p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 500;
+}
+.luxury button {
+  width: 155px;
+  border-radius: 30px;
+  height: 50px;
+  border: none;
+  color: hsl(179, 100%, 13%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+.luxury button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  border: 1px solid white;
+}
+.luxury .button {
+  padding-top: 4.5rem;
+}
+
+@media (max-width: 958px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 18rem);
+    grid-template-rows: 25rem;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .suvs h1 {
+    font-size: 35px;
+  }
+  .suvs p {
+    font-size: 14px;
+  }
+  .suvs button {
+    width: 120px;
+    font-size: 14px;
+  }
+  .suvs .button {
+    padding-top: 1rem;
+  }
+  .sedans h1 {
+    font-size: 35px;
+  }
+  .sedans p {
+    font-size: 14px;
+  }
+  .sedans button {
+    width: 120px;
+    font-size: 14px;
+  }
+  .sedans .button {
+    padding-top: 2rem;
+  }
+  .luxury h1 {
+    font-size: 35px;
+  }
+  .luxury p {
+    font-size: 14px;
+  }
+  .luxury button {
+    width: 120px;
+    font-size: 14px;
+  }
+  .luxury .button {
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 874px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 16rem);
+    grid-template-rows: 24rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .suvs h1 {
+    font-size: 34px;
+  }
+  .suvs p {
+    font-size: 13px;
+  }
+  .suvs button {
+    width: 100px;
+    height: 40px;
+    font-size: 12x;
+  }
+  .suvs .button {
+    padding-top: 1rem;
+  }
+  .sedans h1 {
+    font-size: 34px;
+  }
+  .sedans p {
+    font-size: 13px;
+  }
+  .sedans button {
+    width: 100px;
+    height: 40px;
+    font-size: 12x;
+  }
+  .sedans .button {
+    padding-top: 2rem;
+  }
+  .luxury h1 {
+    font-size: 34px;
+  }
+  .luxury p {
+    font-size: 12px;
+  }
+  .luxury button {
+    width: 100px;
+    height: 40px;
+    font-size: 12x;
+  }
+  .luxury .button {
+    padding-top: 0.5rem;
+  }
+}
+@media (max-width: 774px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 15rem);
+    grid-template-rows: 24rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .sedans {
+    padding: 2rem;
+  }
+  .sedans h1 {
+    font-size: 34px;
+  }
+  .sedans p {
+    font-size: 13px;
+  }
+  .sedans button {
+    width: 100px;
+    height: 40px;
+    font-size: 12x;
+  }
+  .sedans .button {
+    padding-top: 4rem;
+  }
+  .suvs {
+    padding: 2rem;
+  }
+  .suvs h1 {
+    font-size: 34px;
+  }
+  .suvs p {
+    font-size: 13px;
+  }
+  .suvs button {
+    width: 100px;
+    height: 40px;
+    font-size: 12x;
+  }
+  .suvs .button {
+    padding-top: 3rem;
+  }
+  .luxury {
+    padding: 2rem;
+  }
+  .luxury h1 {
+    font-size: 34px;
+  }
+  .luxury p {
+    font-size: 13px;
+  }
+  .luxury button {
+    width: 100px;
+    height: 40px;
+    font-size: 12x;
+  }
+  .luxury .button {
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 724px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 25rem;
+    grid-template-rows: repeat(3, 19rem);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .sedans {
+    padding: 1rem;
+  }
+  .sedans h1 {
+    font-size: 35px;
+  }
+  .sedans p {
+    font-size: 14px;
+  }
+  .sedans button {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .sedans .button {
+    padding-top: 0.3rem;
+  }
+  .suvs {
+    padding: 1rem;
+  }
+  .suvs h1 {
+    font-size: 35px;
+  }
+  .suvs p {
+    font-size: 14px;
+  }
+  .suvs button {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .suvs .button {
+    padding-top: 0.3rem;
+  }
+  .luxury {
+    padding: 1rem;
+  }
+  .luxury h1 {
+    font-size: 35px;
+  }
+  .luxury p {
+    font-size: 14px;
+  }
+  .luxury button {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .luxury .button {
+    padding-top: 0.3rem;
+  }
+}
+@media (max-width: 404px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 18rem;
+    grid-template-rows: repeat(3, 19rem);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .sedans {
+    padding: 1rem;
+  }
+  .sedans h1 {
+    font-size: 30px;
+  }
+  .sedans p {
+    font-size: 14px;
+  }
+  .sedans button {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .sedans .button {
+    padding-top: 0.2rem;
+  }
+  .suvs {
+    padding: 1rem;
+  }
+  .suvs h1 {
+    font-size: 30px;
+  }
+  .suvs p {
+    font-size: 14px;
+  }
+  .suvs button {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .suvs .button {
+    padding-top: 0.2rem;
+  }
+  .luxury {
+    padding: 1rem;
+  }
+  .luxury h1 {
+    font-size: 30px;
+  }
+  .luxury p {
+    font-size: 14px;
+  }
+  .luxury button {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .luxury .button {
+    padding-top: 0.2rem;
+  }
+}
+@media (max-width: 295px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 15rem;
+    grid-template-rows: repeat(3, 19rem);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .sedans {
+    padding: 1rem;
+  }
+  .sedans h1 {
+    font-size: 30px;
+  }
+  .sedans p {
+    font-size: 14px;
+  }
+  .sedans button {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .sedans .button {
+    padding-top: 0.2rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
